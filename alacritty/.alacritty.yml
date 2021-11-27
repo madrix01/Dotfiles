@@ -1,0 +1,23 @@
+window:
+    decorations : "None"
+    padding:
+        x: 8
+        y: 8
+    #startup_mode: Fullscreen
+
+font:
+  normal:
+    family: "MesloLGS NF"
+    style: Regular
+  size: 13 
+
+colors:
+    primary:
+        background: '#1e1e1e'
+
+shell:
+    program: /usr/bin/zsh
+    args:
+        - -l
+        - -c
+        - "tmux attach || tmux"
