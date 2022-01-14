@@ -128,6 +128,8 @@ export TERM=screen-256color
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
+export GITHUB_TOKEN="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"
 alias ls='lsd'
-alias bared='~/Dev/bare/bin/test/baren'
+alias cat='batcat'
+alias bared='~/Dev/bare/tmp/main'
 alias barebuild='go build -o bin/bare ~/Dev/Bare/main.go'

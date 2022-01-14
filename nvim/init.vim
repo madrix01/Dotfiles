@@ -15,13 +15,16 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'coc-extensions/coc-svelte'
+Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 " for using ctrl + / for toggling comment
 vmap ++ <plug>NERDCommenterToggle
 nmap ++ <plug>NERDCommenterToggle
 syntax on
-colorscheme monokai
+colorscheme monokai 
 set tabstop=4
 set autoindent
 set wrap!
