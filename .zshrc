@@ -2,6 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 alias ls="lsd"
+alias l="ls -la"
 alias tmux="TERM=screen-256color-bce tmux"
 alias fzd="cd ~ && cd \$(find * -type d | fzf)"
 alias cat="bat -p"
