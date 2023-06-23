@@ -12,12 +12,23 @@ alias nv="nvim"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ol="zi"
+alias gsty="$HOME/dev/gsty/run.sh"
+
+# Git aliases
+alias gpof="git push -f origin"
+alias gpo="git push origin"
+alias gri="git rebase -i"
+alias glog="git log --online --graph"
+alias gcom="git commit"
+alias gchk='git branch | grep -v "^\*" | fzf --height=20% --reverse --info=inline | xargs git checkout'
 
 export PATH=$PATH:/Users/madrix/go/bin
-export GOPRIVATE=bitbucket.org/fmpy/*
+export GOPRIVATE=github.com/fampay-inc/*
 export GOPATH=$HOME/go
 export PATH=$PATH:/Users/madrix/go/bin
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/Applications/Alacritty.app/Contents/MacOS:$PATH"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
