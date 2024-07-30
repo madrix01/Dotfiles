@@ -1,0 +1,265 @@
+
+[colors.bright]
+black = "#505050"
+blue = "#6fc2ef"
+cyan = "#12cfc0"
+green = "#acc267"
+magenta = "#e1a3ee"
+red = "#fb9fb1"
+white = "#f5f5f5"
+yellow = "#ddb26f"
+
+[colors.cursor]
+cursor = "#d0d0d0"
+text = "#151515"
+
+[colors.normal]
+black = "#151515"
+blue = "#6fc2ef"
+cyan = "#12cfc0"
+green = "#acc267"
+magenta = "#e1a3ee"
+red = "#fb9fb1"
+white = "#d0d0d0"
+yellow = "#ddb26f"
+
+[colors.primary]
+background = "#151515"
+foreground = "#d0d0d0"
+
+[env]
+TERM = "xterm-256color"
+WINIT_HIDPI_FACTOR = "1"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[font]
+size = 15
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Semibold"
+
+[font.bold_italic]
+# family = "Operator Mono"
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 2
+
+[[keyboard.bindings]]
+chars = "\u0001v"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001s"
+key = "D"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001x"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001h"
+key = "H"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001j"
+key = "J"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001k"
+key = "K"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001l"
+key = "L"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00011"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00012"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00013"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00014"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00015"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00016"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00017"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00018"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00019"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001H"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001J"
+key = "Down"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001K"
+key = "Up"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0001L"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOR0"
+key = "Key1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR1"
+key = "Key2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR2"
+key = "Key3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR3"
+key = "Key4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR4"
+key = "Key5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR5"
+key = "Key6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR6"
+key = "Key7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR7"
+key = "Key8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOR8"
+key = "Key9"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bj"
+key = "J"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bk"
+key = "K"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bh"
+key = "H"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bl"
+key = "L"
+mods = "Alt"
+
+[[mouse.bindings]]
+action = "Copy"
+mouse = "Left"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[shell]
+args = ["-l", "-c", "tmux"]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+option_as_alt = "Both"
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0
+y = 0
